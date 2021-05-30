@@ -7,7 +7,7 @@ const History = ({ history }) => {
                 return (
                     <li key = {move}>
                      <button type="button">
-                         {move === 0 ? "Start the Game" : `Go to move #${move}`}
+                         {move === 0 ? "Player 1 " : "Player 2"}
                      </button>
                      </li>
                 );
