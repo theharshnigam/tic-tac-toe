@@ -1,5 +1,3 @@
-import Square from "./components/Square";
-
 const calculateWinner = (squares) => {
     const lines = [
         [0, 1, 2],
